@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import dbConnect from "../config/database.js";
-import router from "../routes/feedRoute.js  ";
+import router from "../routes/feedRoute.js";
 
 const app = express();
 const PORT = process.env.PORT || 4000;
