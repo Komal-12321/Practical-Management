@@ -18,4 +18,4 @@ app.listen(PORT, () => {
 });
 
 app.get("/",(req,res)=>
-  {res.send("Successful");})
+  {res.send("Successfully Deployed");})
